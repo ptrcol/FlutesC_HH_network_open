@@ -1,0 +1,36 @@
+## R files
+.Rhistory
+
+## Ignore the folder with old data (all except the readme)
+Data_Belgium_202201/*
+!Data_Belgium_202201/readme.txt
+## Ignore the folder with the data (all except the readme)
+full_data_set/*
+!full_data_set/readme.txt
+
+## Ignore intermediate save csv file for network object generation
+network_obj_generation/edges_*.csv
+network_obj_generation/infected_households_full_data.csv
+
+## Ignore the content of the sub-folders for the network object generation
+network_obj_generation/densities/*
+!network_obj_generation/densities/readme.txt
+network_obj_generation/net_objects/*
+!network_obj_generation/net_objects/readme.txt
+network_obj_generation/network_plots/*
+!network_obj_generation/network_plots/readme.txt
+network_obj_generation/network_plots/by_hhid/*
+!network_obj_generation/network_plots/by_hhid/readme.txt
+
+
+## Ignore content of epi_fitting folder
+epi_fitting/time_infection_matrix_*.csv
+epi_fitting/incidence_*.csv
+
+## Ignore content of epidemic_info folder
+epi_fitting/epidemic_info/*
+!epi_fitting/epidemic_info/readme.txt
+!epi_fitting/epidemic_info/epidemic_info_dictionary.csv
+
+## Ignore this file
+epi_simulation/subject_data_for_analysis_of_infection.csv
